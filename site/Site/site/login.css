@@ -7,7 +7,17 @@
     margin-top: 60px;
     margin-left: 430px;
     align-items: center;
-    height: 400px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.botao-header{
+    margin-left: 280px;
+}
+
+body{
+height: 600px;
+background: linear-gradient(180deg, #FFFFFF 0%, #FF5592 100%);
 }
 
 input {

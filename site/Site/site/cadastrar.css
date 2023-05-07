@@ -1,3 +1,12 @@
+body {
+    height: 600px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FF5592 100%);
+}
+
+.botao-header {
+    margin-left: 220px;
+}
+
 .caixa-login {
     border: black solid 1px;
     display: flex;
@@ -8,10 +17,19 @@
     margin-left: 250px;
     align-items: center;
     height: 400px;
+    justify-content: space-evenly;
 }
 
 .linha2 {
-   margin-left: 40px;
+    margin-left: 40px;
+}
+
+.linha input {
+    margin-top: 15px;
+}
+
+.linha h3 {
+    margin-top: 15px;
 }
 
 .caixa-login h2 {
@@ -28,6 +46,7 @@
     margin-left: 250px;
     align-items: center;
     height: 500px;
+    justify-content: space-evenly;
 }
 
 .caixa-login2 h2 {
@@ -43,12 +62,13 @@
 }
 
 /* tela3  */
-select{
+select {
     border-radius: 20px;
     width: 300px;
     height: 40px;
     font-size: 15px;
     padding: 10px;
+    margin-top: 15px;
 }
 
 
@@ -62,6 +82,7 @@ select{
     margin-left: 430px;
     height: 300px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .caixa-login3 h2 {
@@ -76,7 +97,7 @@ select{
     width: 370px;
 }
 
-.alinhar{
+.alinhar {
     align-items: center;
 }
 
@@ -87,9 +108,10 @@ select{
     width: 450px;
     border-radius: 30px;
     margin-top: 60px;
-    margin-left: 430px;
+    margin-left: 90px;
     height: 400px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .caixa-login4 h2 {
@@ -104,4 +126,10 @@ select{
     width: 370px;
 }
 
+.caixa-login4 h3 {
+    margin-top: 15px;
+}
 
+.caixa-login4 input {
+    margin-top: 15px;
+}

@@ -20,9 +20,10 @@
 body{
     font-family: 'Barlow'; 
     margin: 0;
-    width: 97%;
+    width: 100%;
     height: 3282px;
-    background: linear-gradient(180deg, #FFFFFF 1.56%, #FF8BB5 26.56%, #FF1F6F 57.81%, #49007E 100%);
+    background: linear-gradient(180deg, #FFFFFF 1.56%, #FD649B 31.77%, #FF1F6F 51.56%, #FFA6C6 75.52%);
+    /* background: linear-gradient(180deg, #FFFFFF 1.56%, #FF8BB5 26.56%, #FF1F6F 57.81%, #49007E 100%); */
 }
 
 header{
@@ -40,19 +41,18 @@ header h2{
     margin: 15px;
 }
 
-header a{
+header .seccao a{
     text-decoration: none;
     padding: 5px 0;
     display: inline-block;
     margin: px 10px;
     color: #49007E;
     font-weight: 700;
-    text-transform: uppercase;
     border-bottom: 3px solid transparent;
     transition: all 0.25s ease-in-out;
 }
 
-header a:hover{
+header .seccao a:hover{
     border-bottom: 3px solid #FF005B;
 }
 
@@ -63,7 +63,8 @@ header a:hover{
     padding: 10px;
     color: white;
     width: 100px;
-    margin-left: 300px;
+    margin-left: 380px;
+    text-decoration: none;
 }
 
 header .seccao{
@@ -131,6 +132,7 @@ header .seccao{
 
 .conteudo p{
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .imagem-conteudo{
@@ -149,6 +151,10 @@ header .seccao{
     text-align: center;
 }
 
+.box img{
+    margin-top: 20px;
+}
+
 .faixa-rosa{
     background-color: #FF005B;
     width: 230px;
@@ -161,13 +167,8 @@ header .seccao{
 }
 
 .sobre-texto{
-    display: flex;
-    align-items: center;
-    text-justify: distribute;
-    justify-content: center;
-    padding: 30px;
-    font-family: 'Barlow-Bold';
-    font-size: 20px;
+    padding: 50px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -177,7 +178,7 @@ header .seccao{
     height: 70px;
     background-color: #49007E;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 60px;
 }
 
 .faixa-roxo2{
@@ -186,7 +187,7 @@ header .seccao{
     height: 90px;
     background-color: #49007E;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 60px;
 }
 
 .site{
@@ -195,18 +196,63 @@ header .seccao{
     margin-top: 120px;
 }
 
-.graficos{
+.graficos-texto{
     display: flex;
-    padding: 30px;
-    margin-top: 50px;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
 }
 
-.grafico{
-    margin-top: 50px;
-    margin-left: 100px;
-    width: 300px;
+.quadrado-maior{
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 600px;
     height: 300px;
-    border: black solid 2px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    justify-content: center;
+}
+/* Quiz */
+
+.titulo-quiz{
+    /* background-color: #FFA6C6; */
+    width: 700px;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 60px;
+    font-size: 26px;
+    padding: 50px;
+    /* border: #FF005B solid 2px; */
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-quiz{
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-quiz img{
+    border-radius: 800px;
+}
+
+.image-quiz h3{
+    padding: 20px;
+    font-size: 22px;
 }
