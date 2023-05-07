@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="img/inspire-removebg-preview_cropped.png" alt="" height="40px" width="120px"></div>    
+        <div class=" seccao">
+            <h2>Home</h2>
+            <h2>Sobre</h2>
+            <h2>Funcionamento</h2>
+            <h2>Dúvidas</h2>
+        </div>
+        <button class="botao-header"><b><a href="home.html">Voltar</a></b></button>
+    </header>
+
+    <div class="caixa-login">
+        <h2>Login</h2>
+        <h3>Username:</h3>
+        <input id="ipt_username">
+        <h3>Senha:</h3>
+        <input id="ipt_senha" type="password">
+        <br><br>
+        <button class="botao-entrar" onclick="entrar()"><b>Entrar</b></button>
+    </div>
+</body>
+</html>
+
+<script>
+    function entrar(){
+        var senha = 'Amanda';
+        var username = 'amandacupola';
+        if (ipt_username.value != username || ipt_senha.value != senha) {
+            alert("Username ou senha incorretos")
+        } else {
+            
+        }
+    }
+</script>
