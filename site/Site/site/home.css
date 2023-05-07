@@ -12,12 +12,14 @@
     font-style: normal;
 }
 
-body{
-	font-family: 'Barlow'; 
+*{
     margin: 0;
+    padding: 0;
 }
 
 body{
+    font-family: 'Barlow'; 
+    margin: 0;
     width: 97%;
     height: 3282px;
     background: linear-gradient(180deg, #FFFFFF 1.56%, #FF8BB5 26.56%, #FF1F6F 57.81%, #49007E 100%);
@@ -35,7 +37,25 @@ header h2{
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 17px;
+    margin: 15px;
 }
+
+header a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: px 10px;
+    color: #49007E;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+
+header a:hover{
+    border-bottom: 3px solid #FF005B;
+}
+
 
 .botao-header{
     border-radius: 20px;
@@ -55,15 +75,18 @@ header .seccao{
 
 .conteudo-botao{
     display: flex;
-    width: 350px;
-    background: #FFB0CC;
-    border: 3px solid #FF005B;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    box-shadow: 0px 4px 4px rgba(255, 0, 200, 0.25);
     border-radius: 30px;
-    height: 90px;
+    height: 20px;
     align-items: center;
     margin-top: 20px;
     margin-left: 10px;
+    background-color: #FF005B;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    justify-content: center;
 }
 
 .coluna{
@@ -149,23 +172,41 @@ header .seccao{
 }
 
 .faixa-roxo{
-    width: 230px;
+    width: 470px;
     padding: 10px;
-    height: 50px;
+    height: 70px;
     background-color: #49007E;
     margin-top: 100px;
+    margin-left: 200px;
 }
 
 .faixa-roxo2{
-    width: 230px;
+    width: 400px;
     padding: 10px;
-    height: 50px;
+    height: 90px;
     background-color: #49007E;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
 .site{
     display: flex;
     flex-direction: row;
     margin-top: 120px;
+}
+
+.graficos{
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.grafico{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    border: black solid 2px;
 }
