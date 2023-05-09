@@ -256,3 +256,62 @@ header .seccao{
     padding: 20px;
     font-size: 22px;
 }
+
+.botao-quiz button{
+    border-radius: 20px;
+    background-color: #FF005B;
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+    width: 230px;
+    font-size: 22px;
+    color: white;
+    margin-top: 70px;
+}
+
+.botao-quiz{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    background-color: #FF005B;
+    height: 150px;
+    padding: 10px;
+}
+
+.linha3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.botao-footer{
+    margin-left: 500px;
+    color: white;
+}
+
+.botao-footer button {
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.linha3 p {
+    margin-left: 10px;
+}
+
+.botao-inicio button{
+    border: 2px white solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    margin-left: 590px;
+    margin-top: 30px;
+}
