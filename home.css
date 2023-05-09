@@ -41,12 +41,22 @@ header h2{
     margin: 15px;
 }
 
+.brancoteste{
+    background-color: white;
+    height: 450px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 header .seccao a{
     text-decoration: none;
     padding: 5px 0;
     display: inline-block;
     margin: px 10px;
-    color: #49007E;
+    color: #ffffff;
     font-weight: 700;
     border-bottom: 3px solid transparent;
     transition: all 0.25s ease-in-out;
@@ -56,6 +66,10 @@ header .seccao a:hover{
     border-bottom: 3px solid #FF005B;
 }
 
+#sessao1{
+    background-image: linear-gradient( 135deg, rgb(249, 119, 148) 0%, rgb(98, 58, 162) 100%);
+    height: 600px;
+}
 
 .botao-header{
     border-radius: 20px;
@@ -79,7 +93,7 @@ header .seccao{
     width: 180px;
     box-shadow: 0px 4px 4px rgba(255, 0, 200, 0.25);
     border-radius: 30px;
-    height: 20px;
+    height: 30px;
     align-items: center;
     margin-top: 20px;
     margin-left: 10px;
@@ -109,13 +123,13 @@ header .seccao{
 
 .conteudo h1{
     font-size: 45px;
+    color: rgb(255, 255, 255);
 }
 
 .conteudo h3{
     color: #FF005B;
     font-size: 20px;
     margin-top: 0px;
-
 }
 
 .conteudo {
@@ -133,6 +147,7 @@ header .seccao{
 .conteudo p{
     font-size: 25px;
     margin-top: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .imagem-conteudo{
@@ -140,7 +155,8 @@ header .seccao{
 }
 
 .box{
-    background-color: white;
+    background-color: #ffffff;
+    border: solid #FF005B 3px;
     border-radius: 50px;
     width: 220px;
     height: 200px;
@@ -167,7 +183,7 @@ header .seccao{
 }
 
 .sobre-texto{
-    padding: 50px;
+    padding: 40px;
     font-size: 26px;
     text-align: center;
 }
