@@ -274,20 +274,84 @@ header .seccao{
 }
 
 .botao-quiz button{
-    border-radius: 20px;
     background-color: #FF005B;
-    padding: 10px;
-    align-items: center;
-    height: 50px;
-    width: 230px;
-    font-size: 22px;
     color: white;
-    margin-top: 70px;
+    height: 50px;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .botao-quiz{
     display: flex;
     justify-content: center;
+}
+
+/* Seja um inspire */
+.faixa-roxo3{
+    width: 300px;
+    padding: 10px;
+    height: 60px;
+    background-color: #49007E;
+    margin-top: 100px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.faixa-roxo3 h2{
+    margin-top: 10px;
+}
+
+.texto-sejaum{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+}
+
+.botao-sejaum button{
+    background-color: #FF005B;
+    color: white;
+    height: 50px;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.botao-sejaum{
+    justify-content: center;
+    display: flex;
+}
+
+/* opnioes */
+
+.box-avaliacao{
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna1-avaliacao{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.coluna2-avaliacao{
+    display: flex;
+    flex-direction: column;
 }
 
 /* footer */
