@@ -354,6 +354,19 @@ header .seccao{
     flex-direction: column;
 }
 
+.box-posiçao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.texto-avaliacao {
+    font-size: 26px;
+    padding: 15px;
+    background-color: #FF005B;
+    width: 15%;
+}
 /* footer */
 
 footer{
