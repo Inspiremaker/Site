@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspire maker &hearts;</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
 <body>
-    <section id="sessao1">
-        <header>
+    <section class="module parallax parallax-1">
+        <div class="header">
             <div class="logo"><img src="img/inspire-removebg-preview_cropped.png" alt="" height="40px" width="120px">
             </div>
             <div class=" seccao">
@@ -21,27 +23,28 @@
                 <h2><a href="#sessao3">Quiz</a></h2>
                 <h2><a href="#sessao4">Dúvidas</a></h2>
             </div>
-            <button class="botao-header"><b><a href="login.html">Login</a></b></button>
-        </header>
+            <div class="linha">
+                <div class="coluna">
+                    <button class="botao-header3"><i id="burguer" onclick="clickMenu()"
+                            class="material-symbols-outlined size-20">account_circle</i></button>
+                    <menu id="itens">
+                        <ul>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="cadastrar.html">Cadastrar</a></li>
+                        </ul>
+                    </menu>
+                </div>
+            </div>
+        </div>
         <div class="conteudo">
             <div class="texto">
                 <h1>Não use social media para<br>
                     impressionar as pessoas,<br>
                     use para impactá-las</h1>
-                <p>Se inspire e inspire !!!</p>
+                <p>Se inspire e inspire</p>
                 <button class="conteudo-botao">
                     <b><a href="cadastrar.html">Cadastrar</a></b>
                 </button>
-                <!-- <button class="conteudo-botao">
-                <img src="img/image-removebg-preview_cropped.png" alt="" width="70px">
-                <div class="coluna">
-                    <h2>Deixe sua marca</h2>
-                    <h3><b><a href="cadastrar.html">Cadastrar</a></b></h3>
-                </div>
-            </button> -->
-            </div>
-            <div class="imagem-conteudo">
-                <img src="img/digital-marketing.png" alt="" height="400px">
             </div>
         </div>
     </section>
@@ -72,37 +75,6 @@
     </section>
 
     <section id="sessao2">
-        <!--  <div class="sobre">
-            <div class="faixa-rosa">
-                <h2>Sobre o site</h2>
-            </div>
-            <div class="sobre-texto">
-                <h3><b>Todas as inspirações que você precisa para planejar o<br>
-                    seu conteudo, em um só lugar !!!</b></h3>
-                </div>
-                <div class="linha">
-                   <div class="box-fundo">
-                       <div class="box">
-                           <h3>Encontre inspirações sobre o seu nicho</h3>
-                           <img src="img/alvo.png" alt="" width="100px">
-                        </div>
-                    </div> 
-                    <div class="box">
-                        <h3>Descubra oque está em alta</h3>
-                        <img src="img/mercado-em-alta.png" alt="" width="100px">
-                    </div>
-                    <div class="box">
-                        <h3>Poste inspirações para ajudar outras pessoas</h3>
-                        <img src="img/ajudando.png" alt="" width="100px">
-                    </div>
-                </div>
-            </div> -->
-
-        <!-- <div class="site">
-                <div class="faixa-roxo"></div>
-                <img src="img/Screenshot_2.png" alt="">
-                <div class="faixa-roxo2"></div>
-            </div> -->
         <div class="graficos-texto">
             <div class="quadrado-maior">
                 <div style="display: flex; margin-left: 20px;">
@@ -149,7 +121,7 @@
         </div>
     </section>
 
-    <section id="sessao4">
+    <!-- <section id="sessao4">
         <div class="faixa-roxo3">
             <h2>Seja um inspire</h2>
         </div>
@@ -163,13 +135,93 @@
             <button>Quero ser um inspire</button>
         </div>
 
-    </section>
+    </section> -->
 
     <section class="sessao5">
         <div class="texto-avaliacao">
             <h1>Avaliações</h1>
         </div>
+        <div class="container-slider">
+            <button id="prev-button" class="material-symbols-outlined seta" alt="prev-button">chevron_left</button>
+            <div class="container-images">
+                <div class="slider on">
+                    <div class="box-avaliacao">
+                        <div class="coluna1-avaliacao">
+                            <h2>Emily Ferreira</h2>
+                            <p>Maquiagem</p>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <img src="img/estrelas.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada orci eget
+                                interdum
+                                aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box-avaliacao">
+                        <div class="coluna1-avaliacao">
+                            <h2>Bruna Sanguine</h2>
+                            <p>Maquiagem</p>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <img src="img/estrelas.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada orci eget
+                                interdum
+                                aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box-avaliacao">
+                        <div class="coluna1-avaliacao">
+                            <h2>Giovanna Santos</h2>
+                            <p>Maquiagem</p>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <img src="img/estrelas.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada orci eget
+                                interdum
+                                aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="next-button" class="material-symbols-outlined size-40" alt="next-button">chevron_right</button>
+        </div>
+        </div>
+        <!-- <div class="texto-avaliacao">
+            <h1>Avaliações</h1>
+        </div>
         <div class="box-posiçao">
+            <button id="setaL" class="material-symbols-outlined seta">chevron_left</button>
+            <div class="box-avaliacao on">
+                <div class="coluna1-avaliacao">
+                    <h2>Emily Ferreira</h2>
+                    <p>Maquiagem</p>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="img/estrelas.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada orci eget interdum
+                        aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
+                </div>
+            </div>
+            <div class="box-avaliacao on">
+                <div class="coluna1-avaliacao">
+                    <h2>Emily Ferreira</h2>
+                    <p>Maquiagem</p>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="img/estrelas.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada orci eget interdum
+                        aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
+                </div>
+            </div>
             <div class="box-avaliacao">
                 <div class="coluna1-avaliacao">
                     <h2>Emily Ferreira</h2>
@@ -182,8 +234,36 @@
                         aliquet. Cras risus nisl, facilisis vel mi quis, lobortis euismod ligula.</p>
                 </div>
             </div>
+            <button id="setaR" class="material-symbols-outlined size-40">chevron_right</button>
+        </div>
+        </div> -->
+    </section>
+
+    <section>
+        <div class="contact" id="contact">
+            <div>
+                <h1>Fale Conosco</h1>
+            </div>
+            <div class="container">
+    
+                <img src="img/Screenshot_1 2.png" alt="">
+                <div class="formContact">
+                    <div>Nome: <input type="text" placeholder="Nome Completo" id="ipt_nome"></div>
+                    <br>
+                    <div>E-mail: <input type="text" placeholder="E-mail" id="ipt_email"></div>
+                    <br>
+                    <div id="cel"> Cel: <input id="ddd" type="text" placeholder="DDD"> <input id="telefone" type="text"
+                            placeholder="Telefone">
+                    </div>
+                    <br>
+                    Assunto: <input type="text" placeholder="Assunto" id="assunto">
+                    <br>
+                    <button onclick="enviar()" id="enviar">Enviar Solicitação</button>
+                </div>
+            </div>
         </div>
     </section>
+
 </body>
 
 <footer>
@@ -232,4 +312,60 @@
             }
         }
     });
+
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+
+    }
+
+    const slider = document.querySelectorAll('.slider');
+    const btnPrev = document.getElementById('prev-button');
+    const btnNext = document.getElementById('next-button');
+
+    let currentSlide = 0;
+
+    function hideSlider() {
+        slider.forEach(item => item.classList.remove('on'))
+    }
+
+    function showSlider() {
+        slider[currentSlide].classList.add('on')
+    }
+
+    function nextSlider() {
+        hideSlider()
+        if (currentSlide === slider.length - 1) {
+            currentSlide = 0
+        } else {
+            currentSlide++
+        }
+        showSlider()
+    }
+
+    function prevSlider() {
+        hideSlider()
+        if (currentSlide === 0) {
+            currentSlide = slider.length - 1
+        } else {
+            currentSlide--
+        }
+        showSlider()
+    }
+
+    btnNext.addEventListener('click', nextSlider)
+    btnPrev.addEventListener('click', prevSlider)
+
+    setInterval(nextSlider, 3000)
+
+</script>
+
+<script>
+    window.sr = ScrollReveal({reset: true});
+
+    sr.reveal('.box', {duration: 1000});
+
 </script>

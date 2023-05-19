@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding: 10px;
+}
+
+.botao-header {
+    border-radius: 20px;
+    background-color: #FF1F6F;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    margin-left: 380px;
+    text-decoration: none;
+    margin-left: 980px;
+    justify-content: center;
+}
+
+
+.icone {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.linha-cinza {
+    background-color: #dadada;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.bolinha {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #FF1F6F;
+    margin-left: 10px;
+}
+
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.linha h2 {
+    padding: 10px;
+}
+
+.posts {
+    /* border: black solid 2px; */
+    width: 500px;
+    margin-left: 20%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.botao-seguir {
+    padding: 10px;
+    width: 80px;
+    text-decoration: none;
+    margin-left: 140%;
+    background: #FFFFFF;
+    border: 1.5px solid #FF0000;
+    border-radius: 16px;
+    color: #FF0000;
+    justify-content: center;
+}
+
+.botao-seguir2{
+    padding: 10px;
+    width: 80px;
+    text-decoration: none;
+    margin-left: 140%;
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 16px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+
+
+.icone img {
+    border-radius: 80%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+button {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1.1rem;
+    color: #000;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    background-color: white;
+
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.label svg {
+    margin-right: 4px;
+}
+
+.label path {
+    fill: #8a8d9b;
+    transition: all .25s ease-in-out;
+}
+
+.number {
+    color: #8a8d9b;
+}
+
+button:hover path {
+    fill: #FF1F6F;
+}
+
+button.like .number {
+    color: #FF1F6F;
+}
+
+button.like svg {
+    animation: transitionLike 1s ease-in;
+}
+
+button.like path {
+    fill: #FF1F6F;
+}
+
+@keyframes transitionLike {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.post-conteudo {
+    border: #000 solid 1PX;
+    width: 400px;
+    height: 400px;
+    margin-top: 3%;
+}
+
+.titulos{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.botao-curtir{
+    margin-left: 2%;
+    margin-top: 33%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.coluna-post{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+}
